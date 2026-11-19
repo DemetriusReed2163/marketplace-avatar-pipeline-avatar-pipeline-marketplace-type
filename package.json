@@ -1,0 +1,12 @@
+{
+  "name": "marketplace-avatar-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/avatar_pipeline.ts",
+    "test": "node --experimental-strip-types src/avatar_pipeline.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
